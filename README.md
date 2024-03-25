@@ -35,7 +35,7 @@ version 1.2.7 will be released in the not too distant future.
 
 ### Use of parameters
 
-The example uses "{}" in step definitions, which are positional step parameters
+The examples use `{}` in step definitions, which are positional step parameters
 that both Cucumber and Behave support. This helps the Cucumber extension to
 recognize step definitions.
 
