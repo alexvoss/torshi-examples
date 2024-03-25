@@ -40,7 +40,7 @@ that both Cucumber and Behave support. This helps the Cucumber extension to
 recognize step definitions.
 
 Unfortunately, the alternative of using [behave-cucumber-matcher] does not
-work with the developer version of Behave, which would mean not using "Rules."
+work with the developer version of Behave, which would mean not using `Rule`.
 Its use also does not lead to step definitions being matched by the VSCode
 extension. So, positional step parameters it is for the moment.
 
