@@ -1,8 +1,10 @@
 # Torshi Demos
 
 a collection of small projects that demonstrate the use of [Torshi] (in stealth 
-mode at the moment) in a BDD practice. Will be extended to show rights-driven
-development and caring design. More on that later.
+mode at the moment) in practice. At the moment, the focus is on translating 
+Torshi specs into BDD specs written in Gherkin. Future examples will elaborate
+the use of Torshi specs as a means to practice rights-driven development and 
+caring design. 
 
 [Torshi]: https://github.com/alexvoss/torshi
 
@@ -19,18 +21,18 @@ point of view, it does make sense to use the same language.
 [Behave]: https://github.com/behave/behave
 
 Unfortunately, the choice means that we have to use the tooling available, which
-is not in an ideal state. To be able to use the `Rule` claums, we need to use
-a developer version. 
+is not in an ideal state. The sections below describe choices made to set up a
+development environment using Behave, VSCode and the [Cucumber extension for
+VSCode].
 
-Another choice that turned out to be somewhat tricky is of VSCode as the IDE.
-The Cucumber plugin 
+[Cucumber extension for VSCode]: https://github.com/cucumber/vscode/
 
 ### Use of developer version
 
-The latest published version of Behave v1.2.6 from 2018 and it does not support
+The latest published version of Behave v1.2.6 is from 2018 and it does not support
 some important language constructs. In particular, it lacks support for the
-"Rule" clause, which is important for the Example Mapping practice. As a
-result, this example uses a developer version of Behave. The hope is that a
+`Rule` clause, which is important for the Example Mapping practice. As a
+result, this example uses a developer version of Behave in the hope that a
 version 1.2.7 will be released in the not too distant future.
 
 ### Use of parameters
