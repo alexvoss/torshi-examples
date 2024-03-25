@@ -20,10 +20,10 @@ point of view, it does make sense to use the same language.
 
 [Behave]: https://github.com/behave/behave
 
-Unfortunately, the choice means that we have to use the tooling available, which
-is not in an ideal state. The sections below describe choices made to set up a
-development environment using Behave, VSCode and the [Cucumber extension for
-VSCode].
+Unfortunately, the choice means that, for the BDD part,we have to use the
+tooling available, which is not in an ideal state. The sections below describe
+choices made to set up a development environment using Behave, VSCode and the
+[Cucumber extension for VSCode].
 
 [Cucumber extension for VSCode]: https://github.com/cucumber/vscode/
 
