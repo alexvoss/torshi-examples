@@ -1,3 +1,10 @@
+# Ignore vim backup files
+*~
+
+# Ignore downloaded Vale rules
+vale/Google
+vale/proselint
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
